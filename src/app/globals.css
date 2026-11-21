@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-rose-dusty: #D8A7A7;
+  --color-blush: #EBCACA;
+  --color-soft-blush: #F7E9E5;
+  --color-cream: #FFF7F2;
+  --color-vintage: #9C5968;
+  --color-deep: #75404F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-deep);
+  font-family: 'VT323', monospace;
+  /* Fluid clamp font size scaling for mobile up to 4K screens */
+  font-size: clamp(1.15rem, 1.05rem + 0.35vw, 1.75rem);
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Ensure headings stay responsive and never overflow */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', monospace;
+  color: var(--color-deep);
+  letter-spacing: -0.02em;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Retro Pixel Art Rendering */
+img, svg, canvas, .pixel-art {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+/* Accessible and Visible Retro Focus Rings */
+:focus-visible {
+  outline: 3px solid var(--color-deep);
+  outline-offset: 2px;
+}
+
+/* Input font size rule to prevent auto-zoom on iOS mobile browsers */
+input, select, textarea {
+  font-size: max(16px, 1.125rem);
+}
+
+@layer utilities {
+  /* Hard Pixel Borders */
+  .border-pixel {
+    border: 3px solid var(--color-deep);
+  }
+  .border-pixel-sm {
+    border: 2px solid var(--color-deep);
+  }
+  .border-pixel-vintage {
+    border: 3px solid var(--color-vintage);
+  }
+
+  /* Stepped Pixel Shadows */
+  .shadow-pixel {
+    box-shadow: 4px 4px 0px var(--color-deep);
+  }
+  .shadow-pixel-sm {
+    box-shadow: 2px 2px 0px var(--color-deep);
+  }
+  .shadow-pixel-lg {
+    box-shadow: 6px 6px 0px var(--color-deep);
+  }
+  .shadow-pixel-vintage {
+    box-shadow: 4px 4px 0px var(--color-vintage);
+  }
+
+  /* Press-down interaction */
+  .pixel-interactive {
+    transition: transform 0.05s ease-out, box-shadow 0.05s ease-out;
+  }
+  .pixel-interactive:active:not(:disabled) {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px var(--color-deep);
+  }
+
+  /* Custom Pixel Scrollbars */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-soft-blush);
+    border-left: 2px solid var(--color-deep);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-rose-dusty);
+    border: 2px solid var(--color-deep);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-vintage);
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 32" width="128" height="32" shape-rendering="crispEdges">
+  <!-- PIXEL DIYA & MARIGOLD SPRITE SHEET: 4 frames, 32x32 each -->
+  <!-- FRAME 0: Normal flame -->
+  <g id="frame0" transform="translate(0, 0)">
+    <!-- Flame -->
+    <rect x="15" y="6" width="2" height="4" fill="#FBBF24" />
+    <rect x="14" y="8" width="4" height="4" fill="#F59E0B" />
+    <rect x="15" y="9" width="2" height="2" fill="#FFF7F2" />
+    <!-- Diya Brass Bowl -->
+    <rect x="10" y="14" width="12" height="4" fill="#9C5968" />
+    <rect x="12" y="18" width="8" height="3" fill="#75404F" />
+    <rect x="13" y="15" width="6" height="2" fill="#FBBF24" />
+    <!-- Marigold Flower Petals Garland -->
+    <rect x="6" y="21" width="4" height="4" fill="#F59E0B" />
+    <rect x="10" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="14" y="23" width="4" height="4" fill="#F59E0B" />
+    <rect x="18" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="22" y="21" width="4" height="4" fill="#F59E0B" />
+  </g>
+
+  <!-- FRAME 1: Flame flickers tall -->
+  <g id="frame1" transform="translate(32, 0)">
+    <rect x="15" y="4" width="2" height="6" fill="#FBBF24" />
+    <rect x="14" y="7" width="4" height="5" fill="#F59E0B" />
+    <rect x="15" y="8" width="2" height="3" fill="#FFF7F2" />
+    <rect x="10" y="14" width="12" height="4" fill="#9C5968" />
+    <rect x="12" y="18" width="8" height="3" fill="#75404F" />
+    <rect x="13" y="15" width="6" height="2" fill="#FBBF24" />
+    <rect x="6" y="21" width="4" height="4" fill="#F59E0B" />
+    <rect x="10" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="14" y="23" width="4" height="4" fill="#F59E0B" />
+    <rect x="18" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="22" y="21" width="4" height="4" fill="#F59E0B" />
+  </g>
+
+  <!-- FRAME 2: Flame flickers to left -->
+  <g id="frame2" transform="translate(64, 0)">
+    <rect x="13" y="5" width="3" height="4" fill="#FBBF24" />
+    <rect x="13" y="8" width="5" height="4" fill="#F59E0B" />
+    <rect x="14" y="9" width="2" height="2" fill="#FFF7F2" />
+    <rect x="10" y="14" width="12" height="4" fill="#9C5968" />
+    <rect x="12" y="18" width="8" height="3" fill="#75404F" />
+    <rect x="13" y="15" width="6" height="2" fill="#FBBF24" />
+    <rect x="6" y="21" width="4" height="4" fill="#F59E0B" />
+    <rect x="10" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="14" y="23" width="4" height="4" fill="#F59E0B" />
+    <rect x="18" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="22" y="21" width="4" height="4" fill="#F59E0B" />
+  </g>
+
+  <!-- FRAME 3: Flame flickers to right with glow -->
+  <g id="frame3" transform="translate(96, 0)">
+    <rect x="16" y="5" width="3" height="4" fill="#FBBF24" />
+    <rect x="14" y="8" width="5" height="4" fill="#F59E0B" />
+    <rect x="15" y="9" width="2" height="2" fill="#FFF7F2" />
+    <rect x="10" y="14" width="12" height="4" fill="#9C5968" />
+    <rect x="12" y="18" width="8" height="3" fill="#75404F" />
+    <rect x="13" y="15" width="6" height="2" fill="#FBBF24" />
+    <rect x="6" y="21" width="4" height="4" fill="#F59E0B" />
+    <rect x="10" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="14" y="23" width="4" height="4" fill="#F59E0B" />
+    <rect x="18" y="22" width="4" height="4" fill="#FBBF24" />
+    <rect x="22" y="21" width="4" height="4" fill="#F59E0B" />
+  </g>
+</svg>

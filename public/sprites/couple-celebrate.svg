@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 48" width="192" height="48" shape-rendering="crispEdges">
+  <!-- COUPLE CELEBRATION SPRITE SHEET: 4 frames, 48x48 each -->
+  <!-- FRAME 0: Cheer pose with confetti star -->
+  <g id="frame0" transform="translate(0, 0)">
+    <!-- Groom (Left) -->
+    <rect x="7" y="6" width="10" height="6" fill="#9C5968" /> <!-- safa -->
+    <rect x="11" y="3" width="2" height="4" fill="#FBBF24" /> <!-- kalgi -->
+    <rect x="7" y="12" width="9" height="9" fill="#F7E9E5" /> <!-- face -->
+    <rect x="9" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="13" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="9" y="18" width="5" height="1" fill="#2B1810" /> <!-- smile -->
+    <!-- Raised Left Arm -->
+    <rect x="3" y="12" width="4" height="4" fill="#FFF7F2" />
+    <rect x="2" y="8" width="4" height="4" fill="#F7E9E5" /> <!-- hand -->
+    <!-- Sherwani body -->
+    <rect x="6" y="21" width="12" height="15" fill="#FFF7F2" />
+    <rect x="11" y="22" width="2" height="14" fill="#FBBF24" />
+    <rect x="8" y="36" width="3" height="8" fill="#EBCACA" />
+    <rect x="13" y="36" width="3" height="8" fill="#EBCACA" />
+    <rect x="7" y="44" width="4" height="3" fill="#75404F" />
+    <rect x="13" y="44" width="4" height="3" fill="#75404F" />
+
+    <!-- Bride (Right) -->
+    <rect x="28" y="9" width="12" height="25" fill="#75404F" /> <!-- dupatta -->
+    <rect x="30" y="11" width="9" height="9" fill="#F7E9E5" /> <!-- face -->
+    <rect x="33" y="8" width="2" height="3" fill="#FBBF24" /> <!-- maang tikka -->
+    <rect x="33" y="13" width="2" height="2" fill="#9C5968" /> <!-- bindi -->
+    <rect x="32" y="15" width="2" height="2" fill="#2B1810" />
+    <rect x="36" y="15" width="2" height="2" fill="#2B1810" />
+    <rect x="33" y="18" width="3" height="1" fill="#9C5968" />
+    <!-- Raised Right Arm -->
+    <rect x="41" y="12" width="4" height="4" fill="#9C5968" />
+    <rect x="42" y="8" width="4" height="4" fill="#F7E9E5" /> <!-- hand -->
+    <!-- Lehenga & Blouse -->
+    <rect x="29" y="21" width="10" height="7" fill="#9C5968" />
+    <rect x="27" y="28" width="14" height="16" fill="#D8A7A7" />
+    <rect x="26" y="44" width="16" height="3" fill="#FBBF24" />
+
+    <!-- Center Heart between them -->
+    <rect x="22" y="14" width="4" height="4" fill="#9C5968" />
+    <rect x="21" y="13" width="2" height="2" fill="#9C5968" />
+    <rect x="25" y="13" width="2" height="2" fill="#9C5968" />
+
+    <!-- Sparkles / Confetti -->
+    <rect x="3" y="3" width="2" height="2" fill="#FBBF24" />
+    <rect x="43" y="4" width="2" height="2" fill="#FBBF24" />
+  </g>
+
+  <!-- FRAME 1: Jump/Pop bounce (+2px lift, sparkle expansion) -->
+  <g id="frame1" transform="translate(48, 0)">
+    <!-- Groom (Lifted 2px) -->
+    <rect x="7" y="4" width="10" height="6" fill="#9C5968" />
+    <rect x="11" y="1" width="2" height="4" fill="#FBBF24" />
+    <rect x="7" y="10" width="9" height="9" fill="#F7E9E5" />
+    <rect x="9" y="12" width="2" height="2" fill="#2B1810" />
+    <rect x="13" y="12" width="2" height="2" fill="#2B1810" />
+    <rect x="9" y="16" width="5" height="1" fill="#2B1810" />
+    <rect x="2" y="9" width="4" height="5" fill="#FFF7F2" />
+    <rect x="1" y="5" width="4" height="4" fill="#F7E9E5" />
+    <rect x="6" y="19" width="12" height="15" fill="#FFF7F2" />
+    <rect x="11" y="20" width="2" height="14" fill="#FBBF24" />
+    <rect x="8" y="34" width="3" height="8" fill="#EBCACA" />
+    <rect x="13" y="34" width="3" height="8" fill="#EBCACA" />
+    <rect x="7" y="42" width="4" height="3" fill="#75404F" />
+    <rect x="13" y="42" width="4" height="3" fill="#75404F" />
+
+    <!-- Bride (Lifted 2px) -->
+    <rect x="28" y="7" width="12" height="25" fill="#75404F" />
+    <rect x="30" y="9" width="9" height="9" fill="#F7E9E5" />
+    <rect x="33" y="6" width="2" height="3" fill="#FBBF24" />
+    <rect x="33" y="11" width="2" height="2" fill="#9C5968" />
+    <rect x="32" y="13" width="2" height="2" fill="#2B1810" />
+    <rect x="36" y="13" width="2" height="2" fill="#2B1810" />
+    <rect x="33" y="16" width="3" height="1" fill="#9C5968" />
+    <rect x="42" y="9" width="4" height="5" fill="#9C5968" />
+    <rect x="43" y="5" width="4" height="4" fill="#F7E9E5" />
+    <rect x="29" y="19" width="10" height="7" fill="#9C5968" />
+    <rect x="27" y="26" width="14" height="16" fill="#D8A7A7" />
+    <rect x="26" y="42" width="16" height="3" fill="#FBBF24" />
+
+    <!-- Center Heart expanded -->
+    <rect x="21" y="11" width="6" height="6" fill="#D8A7A7" />
+    <rect x="20" y="9" width="3" height="3" fill="#9C5968" />
+    <rect x="25" y="9" width="3" height="3" fill="#9C5968" />
+
+    <!-- Sparkles -->
+    <rect x="1" y="2" width="3" height="3" fill="#FBBF24" />
+    <rect x="44" y="2" width="3" height="3" fill="#FBBF24" />
+    <rect x="23" y="2" width="2" height="2" fill="#FBBF24" />
+  </g>
+
+  <!-- FRAME 2: Hands high waving, joyful smiles -->
+  <g id="frame2" transform="translate(96, 0)">
+    <!-- Groom -->
+    <rect x="7" y="5" width="10" height="6" fill="#9C5968" />
+    <rect x="11" y="2" width="2" height="4" fill="#FBBF24" />
+    <rect x="7" y="11" width="9" height="9" fill="#F7E9E5" />
+    <!-- Happy curved eyes (^_^) -->
+    <rect x="9" y="13" width="3" height="1" fill="#2B1810" />
+    <rect x="13" y="13" width="3" height="1" fill="#2B1810" />
+    <rect x="10" y="16" width="4" height="2" fill="#2B1810" />
+    <rect x="3" y="10" width="4" height="6" fill="#FFF7F2" />
+    <rect x="2" y="6" width="4" height="4" fill="#F7E9E5" />
+    <rect x="6" y="20" width="12" height="15" fill="#FFF7F2" />
+    <rect x="11" y="21" width="2" height="14" fill="#FBBF24" />
+    <rect x="8" y="35" width="3" height="8" fill="#EBCACA" />
+    <rect x="13" y="35" width="3" height="8" fill="#EBCACA" />
+    <rect x="7" y="43" width="4" height="3" fill="#75404F" />
+    <rect x="13" y="43" width="4" height="3" fill="#75404F" />
+
+    <!-- Bride -->
+    <rect x="28" y="8" width="12" height="25" fill="#75404F" />
+    <rect x="30" y="10" width="9" height="9" fill="#F7E9E5" />
+    <rect x="33" y="7" width="2" height="3" fill="#FBBF24" />
+    <rect x="33" y="12" width="2" height="2" fill="#9C5968" />
+    <!-- Happy curved eyes -->
+    <rect x="32" y="14" width="3" height="1" fill="#2B1810" />
+    <rect x="36" y="14" width="3" height="1" fill="#2B1810" />
+    <rect x="33" y="17" width="4" height="2" fill="#9C5968" />
+    <rect x="41" y="10" width="4" height="6" fill="#9C5968" />
+    <rect x="42" y="6" width="4" height="4" fill="#F7E9E5" />
+    <rect x="29" y="20" width="10" height="7" fill="#9C5968" />
+    <rect x="27" y="27" width="14" height="16" fill="#D8A7A7" />
+    <rect x="26" y="43" width="16" height="3" fill="#FBBF24" />
+
+    <!-- Floating hearts -->
+    <rect x="22" y="9" width="4" height="4" fill="#9C5968" />
+    <rect x="21" y="8" width="2" height="2" fill="#9C5968" />
+    <rect x="25" y="8" width="2" height="2" fill="#9C5968" />
+
+    <rect x="5" y="3" width="2" height="2" fill="#9C5968" />
+    <rect x="41" y="3" width="2" height="2" fill="#9C5968" />
+  </g>
+
+  <!-- FRAME 3: Clapping / Celebrating finish -->
+  <g id="frame3" transform="translate(144, 0)">
+    <!-- Groom -->
+    <rect x="7" y="6" width="10" height="6" fill="#9C5968" />
+    <rect x="11" y="3" width="2" height="4" fill="#FBBF24" />
+    <rect x="7" y="12" width="9" height="9" fill="#F7E9E5" />
+    <rect x="9" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="13" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="10" y="18" width="4" height="1" fill="#2B1810" />
+    <!-- Hands together clapping -->
+    <rect x="16" y="21" width="5" height="4" fill="#F7E9E5" />
+    <rect x="6" y="21" width="12" height="15" fill="#FFF7F2" />
+    <rect x="11" y="22" width="2" height="14" fill="#FBBF24" />
+    <rect x="8" y="36" width="3" height="8" fill="#EBCACA" />
+    <rect x="13" y="36" width="3" height="8" fill="#EBCACA" />
+    <rect x="7" y="44" width="4" height="3" fill="#75404F" />
+    <rect x="13" y="44" width="4" height="3" fill="#75404F" />
+
+    <!-- Bride -->
+    <rect x="28" y="9" width="12" height="25" fill="#75404F" />
+    <rect x="30" y="11" width="9" height="9" fill="#F7E9E5" />
+    <rect x="33" y="8" width="2" height="3" fill="#FBBF24" />
+    <rect x="33" y="13" width="2" height="2" fill="#9C5968" />
+    <rect x="32" y="15" width="2" height="2" fill="#2B1810" />
+    <rect x="36" y="15" width="2" height="2" fill="#2B1810" />
+    <rect x="33" y="18" width="3" height="1" fill="#9C5968" />
+    <!-- Hands together clapping -->
+    <rect x="27" y="21" width="5" height="4" fill="#F7E9E5" />
+    <rect x="29" y="21" width="10" height="7" fill="#9C5968" />
+    <rect x="27" y="28" width="14" height="16" fill="#D8A7A7" />
+    <rect x="26" y="44" width="16" height="3" fill="#FBBF24" />
+
+    <!-- Hearts floating up -->
+    <rect x="22" y="6" width="4" height="4" fill="#9C5968" />
+    <rect x="21" y="5" width="2" height="2" fill="#9C5968" />
+    <rect x="25" y="5" width="2" height="2" fill="#9C5968" />
+  </g>
+</svg>

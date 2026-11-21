@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 48" width="128" height="48" shape-rendering="crispEdges">
+  <!-- GROOM IDLE SPRITE SHEET: 4 frames, 32x48 each -->
+  <!-- FRAME 0: Idle Standing, Eyes Open -->
+  <g id="frame0" transform="translate(0, 0)">
+    <!-- Turban (Safa) -->
+    <rect x="10" y="4" width="12" height="7" fill="#9C5968" />
+    <rect x="9" y="6" width="14" height="4" fill="#75404F" />
+    <rect x="8" y="7" width="3" height="15" fill="#9C5968" /> <!-- Turban tail -->
+    <!-- Kalgi (turban jewel) -->
+    <rect x="15" y="2" width="2" height="4" fill="#FBBF24" />
+    <rect x="16" y="1" width="1" height="2" fill="#FFF7F2" />
+    <!-- Face / Beard / Neck -->
+    <rect x="11" y="11" width="10" height="10" fill="#F7E9E5" />
+    <rect x="10" y="14" width="2" height="4" fill="#F7E9E5" /> <!-- ears -->
+    <rect x="20" y="14" width="2" height="4" fill="#F7E9E5" />
+    <!-- Eyes -->
+    <rect x="13" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="17" y="14" width="2" height="2" fill="#2B1810" />
+    <!-- Groom Moustache / Smile -->
+    <rect x="13" y="18" width="6" height="2" fill="#2B1810" />
+    <!-- Sherwani Collar & Pearl Mala -->
+    <rect x="12" y="21" width="8" height="3" fill="#FFF7F2" />
+    <rect x="14" y="22" width="4" height="6" fill="#FBBF24" />
+    <!-- Sherwani Coat -->
+    <rect x="9" y="24" width="14" height="14" fill="#FFF7F2" />
+    <rect x="9" y="24" width="3" height="12" fill="#EBCACA" />
+    <rect x="20" y="24" width="3" height="12" fill="#EBCACA" />
+    <!-- Royal buttons & pocket square -->
+    <rect x="15" y="25" width="2" height="12" fill="#FBBF24" />
+    <rect x="11" y="26" width="2" height="2" fill="#9C5968" />
+    <!-- Churidar trousers -->
+    <rect x="12" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="17" y="38" width="3" height="7" fill="#EBCACA" />
+    <!-- Mojri shoes -->
+    <rect x="11" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="17" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="10" y="46" width="1" height="1" fill="#FBBF24" /> <!-- curved tip -->
+    <rect x="21" y="46" width="1" height="1" fill="#FBBF24" />
+  </g>
+
+  <!-- FRAME 1: Breathing in (+1px chest lift) -->
+  <g id="frame1" transform="translate(32, 0)">
+    <rect x="10" y="3" width="12" height="7" fill="#9C5968" />
+    <rect x="9" y="5" width="14" height="4" fill="#75404F" />
+    <rect x="8" y="6" width="3" height="15" fill="#9C5968" />
+    <rect x="15" y="1" width="2" height="4" fill="#FBBF24" />
+    <rect x="16" y="0" width="1" height="2" fill="#FFF7F2" />
+    <rect x="11" y="10" width="10" height="10" fill="#F7E9E5" />
+    <rect x="10" y="13" width="2" height="4" fill="#F7E9E5" />
+    <rect x="20" y="13" width="2" height="4" fill="#F7E9E5" />
+    <rect x="13" y="13" width="2" height="2" fill="#2B1810" />
+    <rect x="17" y="13" width="2" height="2" fill="#2B1810" />
+    <rect x="13" y="17" width="6" height="2" fill="#2B1810" />
+    <rect x="12" y="20" width="8" height="3" fill="#FFF7F2" />
+    <rect x="14" y="21" width="4" height="6" fill="#FBBF24" />
+    <rect x="9" y="23" width="14" height="15" fill="#FFF7F2" />
+    <rect x="9" y="23" width="3" height="13" fill="#EBCACA" />
+    <rect x="20" y="23" width="3" height="13" fill="#EBCACA" />
+    <rect x="15" y="24" width="2" height="12" fill="#FBBF24" />
+    <rect x="11" y="25" width="2" height="2" fill="#9C5968" />
+    <rect x="12" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="17" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="11" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="17" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="10" y="46" width="1" height="1" fill="#FBBF24" />
+    <rect x="21" y="46" width="1" height="1" fill="#FBBF24" />
+  </g>
+
+  <!-- FRAME 2: Blinking -->
+  <g id="frame2" transform="translate(64, 0)">
+    <rect x="10" y="4" width="12" height="7" fill="#9C5968" />
+    <rect x="9" y="6" width="14" height="4" fill="#75404F" />
+    <rect x="8" y="7" width="3" height="15" fill="#9C5968" />
+    <rect x="15" y="2" width="2" height="4" fill="#FBBF24" />
+    <rect x="16" y="1" width="1" height="2" fill="#FFF7F2" />
+    <rect x="11" y="11" width="10" height="10" fill="#F7E9E5" />
+    <rect x="10" y="14" width="2" height="4" fill="#F7E9E5" />
+    <rect x="20" y="14" width="2" height="4" fill="#F7E9E5" />
+    <!-- Blinking Eyes -->
+    <rect x="13" y="15" width="2" height="1" fill="#2B1810" />
+    <rect x="17" y="15" width="2" height="1" fill="#2B1810" />
+    <rect x="13" y="18" width="6" height="2" fill="#2B1810" />
+    <rect x="12" y="21" width="8" height="3" fill="#FFF7F2" />
+    <rect x="14" y="22" width="4" height="6" fill="#FBBF24" />
+    <rect x="9" y="24" width="14" height="14" fill="#FFF7F2" />
+    <rect x="9" y="24" width="3" height="12" fill="#EBCACA" />
+    <rect x="20" y="24" width="3" height="12" fill="#EBCACA" />
+    <rect x="15" y="25" width="2" height="12" fill="#FBBF24" />
+    <rect x="11" y="26" width="2" height="2" fill="#9C5968" />
+    <rect x="12" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="17" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="11" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="17" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="10" y="46" width="1" height="1" fill="#FBBF24" />
+    <rect x="21" y="46" width="1" height="1" fill="#FBBF24" />
+  </g>
+
+  <!-- FRAME 3: Relaxed pose, gentle head tilt -->
+  <g id="frame3" transform="translate(96, 0)">
+    <rect x="10" y="4" width="12" height="7" fill="#9C5968" />
+    <rect x="9" y="6" width="14" height="4" fill="#75404F" />
+    <rect x="8" y="7" width="3" height="15" fill="#9C5968" />
+    <rect x="15" y="2" width="2" height="4" fill="#FBBF24" />
+    <rect x="16" y="1" width="1" height="2" fill="#FFF7F2" />
+    <rect x="11" y="11" width="10" height="10" fill="#F7E9E5" />
+    <rect x="10" y="14" width="2" height="4" fill="#F7E9E5" />
+    <rect x="20" y="14" width="2" height="4" fill="#F7E9E5" />
+    <rect x="13" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="17" y="14" width="2" height="2" fill="#2B1810" />
+    <rect x="13" y="17" width="6" height="2" fill="#2B1810" />
+    <rect x="14" y="19" width="4" height="1" fill="#FFF7F2" /> <!-- teeth in smile -->
+    <rect x="12" y="21" width="8" height="3" fill="#FFF7F2" />
+    <rect x="14" y="22" width="4" height="6" fill="#FBBF24" />
+    <rect x="9" y="24" width="14" height="14" fill="#FFF7F2" />
+    <rect x="9" y="24" width="3" height="12" fill="#EBCACA" />
+    <rect x="20" y="24" width="3" height="12" fill="#EBCACA" />
+    <rect x="15" y="25" width="2" height="12" fill="#FBBF24" />
+    <rect x="11" y="26" width="2" height="2" fill="#9C5968" />
+    <rect x="12" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="17" y="38" width="3" height="7" fill="#EBCACA" />
+    <rect x="11" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="17" y="45" width="4" height="3" fill="#75404F" />
+    <rect x="10" y="46" width="1" height="1" fill="#FBBF24" />
+    <rect x="21" y="46" width="1" height="1" fill="#FBBF24" />
+  </g>
+</svg>

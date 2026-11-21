@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 32" width="128" height="32" shape-rendering="crispEdges">
+  <!-- SHAGUN ENVELOPE (LIFAFA) SPRITE SHEET: 4 frames, 32x32 each -->
+  <!-- FRAME 0: Closed auspicious envelope with gold ₹ seal -->
+  <g id="frame0" transform="translate(0, 0)">
+    <!-- Main envelope body -->
+    <rect x="4" y="8" width="24" height="18" fill="#9C5968" />
+    <rect x="5" y="9" width="22" height="16" fill="#D8A7A7" />
+    <!-- Flap triangular lines -->
+    <polygon points="5,9 16,18 27,9" fill="#9C5968" />
+    <polygon points="6,9 16,17 26,9" fill="#EBCACA" />
+    <!-- Golden seal coin in center -->
+    <rect x="14" y="15" width="4" height="4" fill="#FBBF24" />
+    <rect x="15" y="16" width="2" height="2" fill="#75404F" />
+    <!-- Border shadow -->
+    <rect x="4" y="25" width="24" height="2" fill="#75404F" />
+  </g>
+
+  <!-- FRAME 1: Flap starts lifting, golden seal gleams -->
+  <g id="frame1" transform="translate(32, 0)">
+    <rect x="4" y="8" width="24" height="18" fill="#9C5968" />
+    <rect x="5" y="9" width="22" height="16" fill="#D8A7A7" />
+    <!-- Flap lifting halfway -->
+    <polygon points="5,9 16,12 27,9" fill="#9C5968" />
+    <polygon points="6,9 16,11 26,9" fill="#EBCACA" />
+    <!-- Golden coin floating slightly -->
+    <rect x="14" y="10" width="4" height="4" fill="#FBBF24" />
+    <rect x="15" y="11" width="2" height="2" fill="#FFF7F2" />
+    <rect x="4" y="25" width="24" height="2" fill="#75404F" />
+  </g>
+
+  <!-- FRAME 2: Flap wide open, crisp currency note peeking -->
+  <g id="frame2" transform="translate(64, 0)">
+    <!-- Back interior flap pointing up -->
+    <polygon points="5,9 16,2 27,9" fill="#75404F" />
+    <polygon points="6,9 16,3 26,9" fill="#9C5968" />
+    <!-- Currency note peeking up -->
+    <rect x="9" y="5" width="14" height="12" fill="#10B981" />
+    <rect x="10" y="6" width="12" height="10" fill="#34D399" />
+    <rect x="14" y="9" width="4" height="4" fill="#FBBF24" />
+    <!-- Front pocket -->
+    <rect x="4" y="12" width="24" height="14" fill="#9C5968" />
+    <rect x="5" y="13" width="22" height="12" fill="#D8A7A7" />
+    <rect x="4" y="25" width="24" height="2" fill="#75404F" />
+  </g>
+
+  <!-- FRAME 3: Note floating high, celebration sparkles -->
+  <g id="frame3" transform="translate(96, 0)">
+    <polygon points="5,9 16,2 27,9" fill="#75404F" />
+    <!-- Currency note floating higher -->
+    <rect x="8" y="2" width="16" height="12" fill="#10B981" />
+    <rect x="9" y="3" width="14" height="10" fill="#34D399" />
+    <rect x="14" y="6" width="4" height="4" fill="#FBBF24" />
+    <!-- Sparkles -->
+    <rect x="4" y="2" width="2" height="2" fill="#FBBF24" />
+    <rect x="26" y="2" width="2" height="2" fill="#FBBF24" />
+    <!-- Front pocket -->
+    <rect x="4" y="12" width="24" height="14" fill="#9C5968" />
+    <rect x="5" y="13" width="22" height="12" fill="#D8A7A7" />
+    <rect x="4" y="25" width="24" height="2" fill="#75404F" />
+  </g>
+</svg>
