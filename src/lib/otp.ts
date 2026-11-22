@@ -55,9 +55,15 @@ export function normalizeIndianMobile(input: string): {
 }
 
 /**
- * Generates a crypto-secure 6-digit random OTP
+ * Generates a 6-digit OTP.
+ *
+ * DEMO/TESTING ONLY: when ALLOW_OTP_SIMULATION=true, every OTP is the fixed
+ * code "123456". Remove that env var before real guests use the site.
  */
 export function generateOtp(): string {
+  if (process.env.ALLOW_OTP_SIMULATION === "true") {
+    return "123456";
+  }
   return crypto.randomInt(100000, 1000000).toString();
 }
 
