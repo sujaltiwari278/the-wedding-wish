@@ -8,7 +8,7 @@ import Couple from "@/models/Couple";
 import Goal from "@/models/Goal";
 import Contribution from "@/models/Contribution";
 import Wish from "@/models/Wish";
-import Guest from "@/models/Guest";
+import "@/models/Guest";
 import { CoupleNavbar } from "@/components/couple/CoupleNavbar";
 import { WeddingCountdown } from "@/components/couple/WeddingCountdown";
 import { MetricCards } from "@/components/dashboard/MetricCards";
@@ -150,7 +150,7 @@ export default async function DashboardPage() {
           <div className="flex items-center gap-2">
             <Link href="/goals">
               <PixelButton variant="primary" size="md">
-                MANAGE DREAMS ✦
+                MANAGE DREAMS 
               </PixelButton>
             </Link>
           </div>

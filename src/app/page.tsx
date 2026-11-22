@@ -73,9 +73,6 @@ export default function Home() {
             <h1 className="font-pixel text-2xl sm:text-4xl md:text-5xl lg:text-6xl 3xl:text-7xl text-deep leading-tight tracking-wide drop-shadow-sm break-words">
               THE WEDDING WISH
             </h1>
-            <p className="font-retro text-xl sm:text-2xl md:text-3xl 3xl:text-4xl text-vintage max-w-3xl 3xl:max-w-5xl mx-auto leading-relaxed">
-              Traditional Shagun, Reimagined as a Nostalgic 2D Pixel-Art Wedding Registry
-            </p>
           </div>
 
           {/* Animated Retro Couple Characters */}
@@ -101,8 +98,6 @@ export default function Home() {
             {/* Central Auspicious Garland & Heart */}
             <div className="flex flex-col items-center space-y-1 sm:space-y-2">
               <div className="text-xl sm:text-2xl animate-bounce">💌</div>
-              <div className="font-pixel text-[10px] sm:text-xs text-vintage">100% RETRO</div>
-              <div className="font-retro text-xl sm:text-2xl text-deep font-bold">₹ INR SHAGUN</div>
             </div>
 
             {/* Bride */}
@@ -153,7 +148,7 @@ export default function Home() {
                 </Link>
                 <Link href="/register" className="flex-1">
                   <PixelButton variant="secondary" size="md" className="w-full text-center">
-                    Register Free ✨
+                    Register Free 
                   </PixelButton>
                 </Link>
               </div>
@@ -179,21 +174,20 @@ export default function Home() {
               </div>
 
               <div className="space-y-3 pt-1">
-                <LandingCodeInput />
+  <LandingCodeInput />
 
-                <div className="flex flex-col sm:flex-row gap-2">
-                  <Link href="/guest" className="flex-1">
-                    <PixelButton variant="secondary" size="sm" className="w-full text-center">
-                      Enter Wedding Code →
-                    </PixelButton>
-                  </Link>
-                  <Link href="/guest" className="flex-1">
-                    <PixelButton variant="ghost" size="sm" className="w-full text-center bg-cream">
-                      Guest Login (OTP)
-                    </PixelButton>
-                  </Link>
-                </div>
-              </div>
+  <div className="flex justify-center">
+    <Link href="/guest" className="w-full sm:w-auto">
+      <PixelButton
+        variant="ghost"
+        size="sm"
+        className="w-full text-center bg-cream whitespace-nowrap"
+      >
+        Guest Login (OTP)
+      </PixelButton>
+    </Link>
+  </div>
+</div>
             </PixelCard>
           </div>
         </div>

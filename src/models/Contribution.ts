@@ -1,5 +1,7 @@
 import mongoose, { Schema, Model } from "mongoose";
 import { IContribution } from "@/types";
+import "@/models/Guest";
+import "@/models/Goal";
 
 const ContributionSchema = new Schema<IContribution>(
   {

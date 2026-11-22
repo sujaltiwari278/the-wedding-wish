@@ -24,29 +24,23 @@ export function CoupleNavbar() {
 
   return (
     <header className="bg-soft-blush border-b-4 border-deep px-3 sm:px-6 py-2.5 sticky top-0 z-40">
-      <div className="max-w-6xl mx-auto flex items-center justify-between gap-2">
+      <div className="max-w-screen-2xl mx-auto flex items-center justify-between gap-4">
         {/* Logo & Names */}
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-          <Link
-            href="/dashboard"
-            onClick={() => sound.playClickBeep()}
-            className="flex items-center gap-1.5 sm:gap-2 shrink-0"
-          >
-            <span className="text-xl">💍</span>
-            <span className="font-pixel text-[11px] sm:text-xs md:text-sm text-deep tracking-wider font-bold">
-              THE WEDDING WISH
-            </span>
+          <Link href="/" className="flex shrink-0 items-center gap-2 whitespace-nowrap">
+            <span>💍</span>
+            <span className="text-sm lg:text-base">THE WEDDING WISH</span>
           </Link>
           {session?.user && (
-            <span className="hidden lg:inline-block font-retro text-lg text-vintage border-l-2 border-deep/30 pl-3 truncate max-w-[200px]">
+            <span className="hidden 2xl:inline-block font-retro text-lg text-vintage border-l-2 border-deep/30 pl-3 truncate max-w-[200px]">
               {session.user.partnerOneName} &amp; {session.user.partnerTwoName}
             </span>
           )}
         </div>
 
         {/* Desktop Links & Actions */}
-        <div className="hidden md:flex items-center gap-3">
-          <nav className="flex items-center gap-1">
+        <div className="hidden xl:flex items-center gap-3">
+          <nav className="flex shrink-0 items-center gap-1">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -54,7 +48,7 @@ export function CoupleNavbar() {
                   key={link.href}
                   href={link.href}
                   onClick={() => sound.playClickBeep()}
-                  className={`font-pixel text-[10px] md:text-xs uppercase px-2.5 py-1.5 border-2 transition-all select-none ${
+                  className={`font-pixel text-[10px] xl:text-xs uppercase whitespace-nowrap px-2 xl:px-2.5 py-1.5 border-2 transition-all select-none ${
                     isActive
                       ? "bg-vintage text-cream border-deep shadow-pixel-sm translate-y-[-1px]"
                       : "bg-cream text-deep border-transparent hover:border-deep/40"
@@ -84,7 +78,7 @@ export function CoupleNavbar() {
         </div>
 
         {/* Mobile Hamburger & Actions */}
-        <div className="flex md:hidden items-center gap-2">
+        <div className="flex xl:hidden items-center gap-2">
           {pathname !== "/dashboard" && (
             <Link
               href="/dashboard"
@@ -127,7 +121,7 @@ export function CoupleNavbar() {
 
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t-2 border-deep/30 bg-soft-blush pt-3 pb-2 mt-2 space-y-2">
+        <div className="xl:hidden border-t-2 border-deep/30 bg-soft-blush pt-3 pb-2 mt-2 space-y-2">
           {session?.user && (
             <div className="px-2 pb-1 font-retro text-lg text-vintage font-bold border-b border-deep/20">
               {session.user.partnerOneName} &amp; {session.user.partnerTwoName}

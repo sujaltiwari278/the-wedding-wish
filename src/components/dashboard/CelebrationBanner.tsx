@@ -48,7 +48,7 @@ export function CelebrationBanner({
         </div>
 
         <PixelButton size="sm" variant="primary" onClick={handleDismiss}>
-          CELEBRATE & DISMISS ✦
+          CELEBRATE & DISMISS 
         </PixelButton>
       </div>
     </PixelCard>
