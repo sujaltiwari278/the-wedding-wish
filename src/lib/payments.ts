@@ -17,6 +17,17 @@ const isTestPlaceholder =
   !RAZORPAY_KEY_SECRET ||
   RAZORPAY_KEY_SECRET.includes("placeholder");
 
+/**
+ * Simulated (fake) payments are ONLY allowed when:
+ *  - running outside production (local dev), OR
+ *  - ALLOW_PAYMENT_SIMULATION=true is explicitly set (demo deployments).
+ * On a real production site with no Razorpay keys, payments are refused
+ * instead of silently accepting fake signatures.
+ */
+const allowSimulation =
+  process.env.NODE_ENV !== "production" ||
+  process.env.ALLOW_PAYMENT_SIMULATION === "true";
+
 let razorpayClient: Razorpay | null = null;
 if (!isTestPlaceholder) {
   razorpayClient = new Razorpay({
@@ -26,7 +37,8 @@ if (!isTestPlaceholder) {
 }
 
 /**
- * Creates an order on Razorpay (or a simulated test order if placeholder keys)
+ * Creates an order on Razorpay (or a simulated test order if placeholder keys
+ * and simulation is allowed)
  */
 export async function createRazorpayOrder(params: {
   amountPaise: number;
@@ -48,6 +60,10 @@ export async function createRazorpayOrder(params: {
     };
   }
 
+  if (!allowSimulation) {
+    throw new Error("Payments are not configured");
+  }
+
   // Realistic Test Simulator order when placeholder keys are active
   const simulatedOrderId = `order_test_${crypto.randomBytes(8).toString("hex")}`;
   return {
@@ -67,8 +83,8 @@ export function verifyRazorpaySignature(
   signature: string
 ): boolean {
   if (isTestPlaceholder) {
-    // In simulated test mode, any valid hex signature or test signature passes
-    return Boolean(signature && signature.length >= 8);
+    // Simulated test mode: only accepted when simulation is explicitly allowed
+    return allowSimulation && Boolean(signature && signature.length >= 8);
   }
 
   const expectedSignature = crypto
@@ -101,6 +117,10 @@ export async function fetchPaymentFromRazorpay(paymentId: string): Promise<{
     };
   }
 
+  if (!allowSimulation) {
+    throw new Error("Payments are not configured");
+  }
+
   // Simulated test payment
   return {
     captured: true,
@@ -116,7 +136,8 @@ export function verifyWebhookSignature(
   signature: string
 ): boolean {
   if (isTestPlaceholder) {
-    return true;
+    // Never trust webhooks in production without real keys
+    return allowSimulation;
   }
 
   const expectedSignature = crypto
